@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.opensans {
+    font-family: "Open Sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Baloo 2', cursive;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #9CA5AB;
+    background-color: #262B32;
+  }
+
+h1 {
+  color: #9CA5AB;
+  padding-top: 2%;
+  font-size: 3rem;
+
+}
+
+h3 {
+  padding-bottom: 4%;
+}
+
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    background: #262B32;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    
+  }
+
+.weather {
+    /* display: flex; 
+    align-items: center; */
+    margin: 15px 0;
+    font-size: 2rem;
+    width: auto;
+    height: auto;
+  }
+
+#location {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #f4a261;
+
+  }
+.desc {
+    font-size: 1.5rem;
+    font-family: Poppins;
+    /*text-transform: capitalize; */
+  }
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.dinokuva {
+    padding-top: 3%;
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    backface-visibility: hidden;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    background: #f4a261;
+    border-radius: 100px;
+    border: 0px solid #444;
+    border-width: 0px 0px 0px 0px;
+    padding: 0px;
+    color: #262B32;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+
+    }
+
+    input[type=text] {
+      width: 50%;
+      padding: 12px 12px;
+      margin-top: 10px;
+      margin-right: 10px;
+      box-sizing: border-box;
+      border-radius: 8px;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #262B32;
+      opacity: 1; /* Firefox */
+      font-size:115%;
+      font-family: Poppins;
+
+    }
+    
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #262B32;
+      font-size:115%;
+      font-family: Poppins;
+  
+    }
+    
+    ::-ms-input-placeholder { 
+      color: #262B32;
+      font-size:115%;
+      font-family: Poppins;
+    }
+    
+
+/* .circle {
+    background-color: #7e7385;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    margin: 0 15px;
+  }
+*/
+

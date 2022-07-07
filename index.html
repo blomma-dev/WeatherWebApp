@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Dinosää</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open-Sans">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <center>
+            <div class="dinokuva">
+                <img src="dino.png">
+            </div>
+        <h1>Sää juuri nyt</h1>
+        <h3>Sään tarjoaa OpenWeatherMap</h3>
+
+        <div class="container">
+            <img src="" alt="" srcset="" id="weather-icon">
+            <div id="location">Salli sijainti tai hae kaupungilla</div>
+            <div class="desc">Ei tietoja saatavilla.</div>
+
+            <div class="weather"> 
+
+                <div class="c">Virhe</div>
+
+                <!--<div class="f">Error</div>-->
+
+
+            </div>
+            <div class="info">
+                <h4>Aurinko nousee: <span class="sunrise">Ei tietoja saatavilla</span></h4>
+                <h4>Aurinko laskee: <span class="sunset">Ei tietoja saatavilla</span></h4>
+
+            </div>
+            <br>
+        <form onsubmit="weatherByCity(event)">
+            <input type="text" id="haku" placeholder="Paikkakunta...">
+            <button type="submit">Hae</button>
+        </form>
+        </div>
+        <script type='text/javascript' src='config.js'></script>
+        <script src="script.js"></script>
+    </center>
+    </body>
+
+    </html>
