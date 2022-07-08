@@ -23,7 +23,6 @@
   }
 
 body {
-    overflow: hidden; /* Hide scrollbars */
     min-height: 100vh;
     font-family: 'Quicksand', sans-serif;
     color: #9CA5AB;
