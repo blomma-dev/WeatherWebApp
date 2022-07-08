@@ -27,6 +27,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: #9CA5AB;
     background-color: #262B32;
+    overflow-x: hidden;
   }
 
 h1 {
