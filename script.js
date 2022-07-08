@@ -1,15 +1,6 @@
 //OpenWeatherMap API
 // API key
-// commmon modules
-//require('dotenv').config()
 
-// ES modules
-//import dotenv from 'dotenv';
-//dotenv.config()
-
-
-//const api = 'a4823b74ebb0cf3e25ccb278f845a605'; 
-//const api = xx;
 const api = config.API_KEY;
 const iconImg = document.getElementById('weather-icon');
 const loc = document.querySelector('#location');
