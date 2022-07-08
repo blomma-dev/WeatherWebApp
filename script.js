@@ -1,6 +1,8 @@
 //OpenWeatherMap API
 // API key
 
+
+
 const api = config.API_KEY;
 const iconImg = document.getElementById('weather-icon');
 const loc = document.querySelector('#location');
@@ -57,7 +59,7 @@ function fetchWeather(base) {
           const { description, icon } = data.weather[0];
           const { sunrise, sunset } = data.sys;
 
-          const iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+          const iconUrl = `./icons/${icon}@2x.png`;
           //const fahrenheit = (temp * 9) / 5 + 32;
 
           // Converting Epoch(Unix) time to GMT
