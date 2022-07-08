@@ -23,6 +23,7 @@
   }
 
 body {
+    min-height: 100vh;
     font-family: 'Quicksand', sans-serif;
     color: #9CA5AB;
     background-color: #262B32;
@@ -30,8 +31,9 @@ body {
 
 h1 {
   color: #9CA5AB;
-  padding-top: 2%;
+  padding-top: 7%;
   font-size: 3rem;
+  font-family: Quicksand;
 
 }
 
@@ -39,6 +41,18 @@ h3 {
   padding-bottom: 4%;
 }
 
+div.content { 
+  width: 1000px 
+}
+
+
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #f4a261;
+  color: #262B32;
+  font-size: 30px;
+}
 
 .container {
     height: 100vh;
@@ -71,7 +85,7 @@ h3 {
   }
 .desc {
     font-size: 1.5rem;
-    font-family: Poppins;
+    font-family: Quicksand;
     /*text-transform: capitalize; */
   }
 
@@ -102,7 +116,7 @@ button {
     padding: 0px;
     color: #262B32;
     font-size: 16px;
-    font-family: Poppins;
+    font-family: Quicksand;
     font-weight: 900;
     font-style: normal;
     text-align: center;
@@ -122,21 +136,21 @@ button {
       color: #262B32;
       opacity: 1; /* Firefox */
       font-size:115%;
-      font-family: Poppins;
+      font-family: Quicksand;
 
     }
     
     :-ms-input-placeholder { /* Internet Explorer 10-11 */
       color: #262B32;
       font-size:115%;
-      font-family: Poppins;
+      font-family: Quicksand;
   
     }
     
     ::-ms-input-placeholder { 
       color: #262B32;
       font-size:115%;
-      font-family: Poppins;
+      font-family: Quicksand;
     }
     
 
