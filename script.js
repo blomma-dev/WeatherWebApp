@@ -3,7 +3,8 @@
 
 
 
-const api = config.API_KEY;
+//const api = config.API_KEY;
+const api = process.env.API_KEY
 const iconImg = document.getElementById('weather-icon');
 const loc = document.querySelector('#location');
 const tempC = document.querySelector('.c');
